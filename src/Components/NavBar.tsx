@@ -27,9 +27,9 @@ const NavBar = (): JSX.Element=>(
                         
                             <ul className="navbar-nav mr-auto" style={{flexDirection:"row"}}>
                             
-                            {false && (<>
+                            {true && (<>
                                 <li className="nav-item separador_nav">
-                                <Link className="nav-link link_nav" to={"/Acceso"}><span className="span_nav" >Acceso</span><i className="fas fa-sign-in-alt icon_nav"></i></Link>
+                            <Link className="nav-link link_nav" style={styles.label_nav} to={"/Acceso"}><span className="span_nav" >Acceso {" "}</span><i className="fas fa-sign-in-alt icon_nav"></i></Link>
                             </li>
                             </>)}
                         

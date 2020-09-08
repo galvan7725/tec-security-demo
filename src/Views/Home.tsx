@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, Component } from 'react';
 import NavBar from '../Components/NavBar';
 
 
 
-const Home = (): JSX.Element=>{
+const Home = ()=>{
 
     
 
